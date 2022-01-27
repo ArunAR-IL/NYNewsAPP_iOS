@@ -15,9 +15,5 @@ extension UIViewController {
         return controller
     }
 }
-extension UIViewController: Presentable {
-    func toPresent() -> UIViewController? {
-    return self
-  }
-}
+
 

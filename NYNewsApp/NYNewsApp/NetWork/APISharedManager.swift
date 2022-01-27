@@ -13,8 +13,4 @@ class AppSharedManager {
     
     static let httpManager = HTTPManager(session: URLSession.shared)
 }
-extension AppSharedManager {
-    func resetManager(){
-        AppSharedManager.shared = AppSharedManager()
-    }
-}
+

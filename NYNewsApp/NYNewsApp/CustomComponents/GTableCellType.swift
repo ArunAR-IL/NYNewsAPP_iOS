@@ -14,17 +14,4 @@ enum GTableCellType {
  
 }
 
-extension GTableCellType {
-    //Get table Cell row height
-    func getRowHeight() -> CGFloat{
-        switch self {
-        default:return UITableView.automaticDimension
-        }
-    }
-    func getEstimatedRowHeight() -> CGFloat{
-        switch self {
-           default:return UITableView.automaticDimension
-        }
-    }
-}
 
