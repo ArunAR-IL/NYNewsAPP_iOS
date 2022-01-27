@@ -39,7 +39,6 @@
 		29D72F1827994AE20059ACD7 /* UIViewController+StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F1727994AE20059ACD7 /* UIViewController+StoryBoard.swift */; };
 		29D72F1A27994B2B0059ACD7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F1927994B2B0059ACD7 /* Coordinator.swift */; };
 		29D72F1C27994B500059ACD7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F1B27994B500059ACD7 /* AppCoordinator.swift */; };
-		29D72F1E2799782F0059ACD7 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F1D2799782F0059ACD7 /* NSObjectExtensions.swift */; };
 		29D72F232799790F0059ACD7 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F222799790F0059ACD7 /* Presentable.swift */; };
 		29D72F26279979620059ACD7 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F25279979620059ACD7 /* NewsListViewController.swift */; };
 		29D72F292799A69B0059ACD7 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D72F282799A69B0059ACD7 /* NewsListViewModel.swift */; };
@@ -98,7 +97,6 @@
 		29D72F1727994AE20059ACD7 /* UIViewController+StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+StoryBoard.swift"; sourceTree = "<group>"; };
 		29D72F1927994B2B0059ACD7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		29D72F1B27994B500059ACD7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		29D72F1D2799782F0059ACD7 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		29D72F222799790F0059ACD7 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
 		29D72F25279979620059ACD7 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		29D72F282799A69B0059ACD7 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
@@ -269,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				29D72F1727994AE20059ACD7 /* UIViewController+StoryBoard.swift */,
-				29D72F1D2799782F0059ACD7 /* NSObjectExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -466,7 +463,6 @@
 				29D72F2B2799B9FF0059ACD7 /* NewsListCoordinator.swift in Sources */,
 				29D72F26279979620059ACD7 /* NewsListViewController.swift in Sources */,
 				29974917279FCE960012CAF7 /* HttpManagerProtocol.swift in Sources */,
-				29D72F1E2799782F0059ACD7 /* NSObjectExtensions.swift in Sources */,
 				29974919279FCEDE0012CAF7 /* ProtocolExtensions.swift in Sources */,
 				298B9008279DA7B10090C8B0 /* GTableDelegate.swift in Sources */,
 				298B900A279DA7E30090C8B0 /* GTableDataSource.swift in Sources */,

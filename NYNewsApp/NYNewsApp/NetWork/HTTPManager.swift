@@ -33,7 +33,7 @@ class HTTPManager<T:URLSessionProtocol> {
     public func request<R:Codable>(urlString: String,model: R.Type, completionBlock: @escaping (Result<R, Error>) -> Void) {
       
         guard let url = URL(string: urlString) else {
-            completionBlock(.failure(HTTPError.genericError as! Error))
+            completionBlock(.failure(HTTPError.genericError(GenericError(errors:"Invalid url"))))
             return
         }
         
@@ -46,9 +46,6 @@ class HTTPManager<T:URLSessionProtocol> {
                 return
             }
             
-            if let receivedData = data {
-                let str = String(decoding: receivedData, as: UTF8.self)
-            }
             guard let httpResponse = response as? HTTPURLResponse,
                 200 ..< 300 ~= httpResponse.statusCode else {
                     if let receivedData = data {
